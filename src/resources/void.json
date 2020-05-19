@@ -1,0 +1,26 @@
+{
+    "merchantId": {
+        "value": 0
+    },
+    "orderId": "string",
+    "targetOrderId": "string",
+    "amount": 0,
+    "originalConfirmationNumber": "string",
+    "mposUserId": {
+        "value": 0
+    },
+    "merchantReferenceNumber": "string",
+    "clientSequenceId": "string",
+    "terminalId": {
+        "value": 0
+    },
+    "terminalIdentifier": "string",
+    "latitude": 0,
+    "longitude": 0,
+    "localTerminalTime": "2020-05-19T20:14:32.021Z",
+    "batchNumber": 0,
+    "itemNumber": 0,
+    "transactionType": 0,
+    "transactionManuallyCancelled": true,
+    "posSequenceNumber": 0
+}

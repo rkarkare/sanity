@@ -16,6 +16,11 @@ def mpos_url():
 
 
 @pytest.fixture(scope="session")
+def hivetrans_url():
+    return 'https://virginia-integration-hivetransaction.mobeewave-hive.com/api/' + version
+
+
+@pytest.fixture(scope="session")
 def get_mpos_auth_token():
     mpos_endpoint = 'https://virginia-integration-mposcore.mobeewave-hive.com/api/v3/authentication/mpos/login'
     payload = {
