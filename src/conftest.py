@@ -6,7 +6,7 @@ version = "V3"
 
 
 @pytest.fixture(scope="session")
-def url():
+def hivecore_url():
     return 'https://virginia-integration-hivecore.mobeewave-hive.com/api/' + version
 
 
@@ -17,7 +17,7 @@ def mpos_url():
 
 @pytest.fixture(scope="session")
 def get_mpos_auth_token():
-    mpos_endpoint = 'https: // virginia-integration-mposcore.mobeewave-hive.com/api/v3/authentication/mpos/login'
+    mpos_endpoint = 'https://virginia-integration-mposcore.mobeewave-hive.com/api/v3/authentication/mpos/login'
     payload = {
         "merchantAccountNumber": "0018175",
         "email": "shivakumar.mobeewave@gmail.com",

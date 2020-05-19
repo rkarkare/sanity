@@ -1,0 +1,88 @@
+    {
+        "clientSequenceId": "string",
+        "merchantId": {
+            "value": 0
+        },
+        "transactionItems": [{
+            "transactionId": {
+                "value": 0
+            },
+            "productId": {
+                "value": 0
+            },
+            "description": "string",
+            "unitPrice": 0,
+            "isRefunded": true,
+            "id": {
+                "value": 0
+            }
+        }],
+        "mposUserId": {
+            "value": 0
+        },
+        "mposUserName": "string",
+        "entryMode": 0,
+        "cardBrand": 0,
+        "transactionType": 0,
+        "cardType": 0,
+        "terminalId": {
+            "value": 0
+        },
+        "terminalName": "string",
+        "amount": 0,
+        "originalAmount": 0,
+        "confirmationNumber": "string",
+        "transactionNumber": "string",
+        "transactionStatus": 0,
+        "statusDescription": "string",
+        "requestedAt": "2020-05-18T19:31:11.696Z",
+        "description": "string",
+        "merchantReferenceNumber": "string",
+        "tipAmount": 0,
+        "taxAmount1": 0,
+        "taxAmount2": 0,
+        "longitude": 0,
+        "latitude": 0,
+        "currencyDefinitionId": {
+            "value": 0
+        },
+        "cardholderVerificationMethod": 0,
+        "posEntryMode": "string",
+        "languageCode": "string",
+        "actionCode": "string",
+        "localTerminalTime": "2020-05-18T19:31:11.696Z",
+        "maskedCardNumber": "string",
+        "transactionFees": 0,
+        "batchNumber": 0,
+        "itemNumber": 0,
+        "settlementBatchId": {
+            "value": 0
+        },
+        "voided": true,
+        "termVerificationResults": "string",
+        "tranStatusInfo": "string",
+        "issuerResponseCode": "string",
+        "applicationLabel": "string",
+        "cardProcessingMode": 1,
+        "refundedAmount": 0,
+        "statusReason": 0,
+        "terminalIdentifier": "string",
+        "parentTransactionId": {
+            "value": 0
+        },
+        "cryptogram": "string",
+        "settlementState": 0,
+        "atc": 0,
+        "csn": 0,
+        "aid": "string",
+        "tsi": "string",
+        "tvr": "string",
+        "orderId": "string",
+        "forcedRefund": true,
+        "transactionManuallyCancelled": true,
+        "posSequenceNumber": 0,
+        "hostTime": "2020-05-18T19:31:11.696Z",
+        "id": {
+            "value": 0
+        }
+    }
