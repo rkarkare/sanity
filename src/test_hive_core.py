@@ -42,10 +42,10 @@ def test_end_to_end_purchase_scenario_1(hivetrans_url, get_mpos_auth_token, hive
     # not sure should we hit /management/attestations
     # get transaction id from response
     # verifying on Hive Core that transaction is didplayed
-    # hive_endpoint = hivecore_url + '/management/hive/transactions/{id}'
-    # response = requests.get(
-    #     hive_endpoint, headers={'Authorization': get_hiveCore_auth_token}, params="")
-    # assert response.status_code == 200
+    hive_endpoint = hivecore_url + '/management/hive/transactions/{id}'
+    response = requests.get(
+        hive_endpoint, headers={'Authorization': get_hiveCore_auth_token}, params="")
+    assert response.status_code == 200
 
 
 def test_end_to_end_void_scenario_2(hivetrans_url, get_mpos_auth_token, hivecore_url, get_hiveCore_auth_token):
