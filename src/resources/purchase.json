@@ -1,17 +1,17 @@
 {
-    "clientSequenceId": "string",
-    "orderId": "string",
+    "clientSequenceId": "a96cfd95-ee0e-4fdf-9cb2-58ae6784e0c8",
+    "orderId": "0d798af2-b7c3-4025-9cc1-2661a3eebd57",
     "targetOrderId": "string",
     "merchantId": {
-        "value": 0
+        "value": 501
     },
     "mposUserId": {
-        "value": 0
+        "value": 724
     },
-    "entryMode": 0,
-    "cardBrand": 0,
+    "entryMode": 1,
+    "cardBrand": 1,
     "terminalId": {
-        "value": 0
+        "value": 564
     },
     "transactionItems": [{
         "transactionId": {
@@ -21,21 +21,21 @@
             "value": 0
         },
         "description": "string",
-        "unitPrice": 0,
-        "isRefunded": true,
+        "unitPrice": 6.0,
+        "isRefunded": false,
         "id": {
             "value": 0
         }
     }],
-    "transactionType": 0,
+    "transactionType": 1,
     "currencyDefinitionId": {
         "value": 0
     },
-    "cardType": 0,
-    "amount": 0,
+    "cardType": 2,
+    "amount": 6.0,
     "description": "string",
     "requestedAt": "2020-05-19T20:13:51.797Z",
-    "localTerminalTime": "2020-05-19T20:13:51.798Z",
+    "localTerminalTime": "2020-05-20T20:10:51.798Z",
     "cardNumber": "string",
     "merchantReferenceNumber": "string",
     "tipAmount": 0,
@@ -43,40 +43,40 @@
     "taxAmount2": 0,
     "latitude": 0,
     "longitude": 0,
-    "cardholderVerificationMethod": 0,
+    "cardholderVerificationMethod": 1,
     "posEntryMode": "string",
     "languageCodes": [
         "string"
     ],
-    "aid": "string",
+    "aid": "a0000000041010",
     "transactionFees": 0,
-    "expiryDate": "2020-05-19T20:13:51.798Z",
-    "voided": true,
+    "expiryDate": "2020-06-19T20:13:51.798Z",
+    "voided": false,
     "confirmationNumber": "string",
     "acquirerRefrenceData": "string",
     "encryptedKeySerialNumber": "string",
     "emvTag": "string",
     "useEncryption": true,
     "track2Data": "string",
-    "cardProcessingMode": 1,
+    "cardProcessingMode": 3,
     "cvv": "string",
-    "terminalIdentifier": "string",
+    "terminalIdentifier": "0089250008025022875372",
     "elevatedPrivilegeToken": "string",
-    "termVerificationResults": "string",
-    "tranStatusInfo": "string",
-    "applicationLabel": "string",
+    "termVerificationResults": "0000008001",
+    "tranStatusInfo": "6800",
+    "applicationLabel": "MasterCard",
     "batchNumber": 0,
     "itemNumber": 0,
     "originalConfirmationNumber": "string",
     "transactionNumber": "string",
     "panNumber": "string",
-    "deviceType": "string",
-    "cardSequenceId": "string",
+    "deviceType": "00",
+    "cardSequenceId": "01",
     "forcedRefund": true,
-    "posSequenceNumber": 0,
+    "posSequenceNumber": 1,
     "threeDsEci": "string",
     "threeDsAuthenticationValue": "string",
     "threeDsServerTransactionId": "string",
     "transactionStatusTerminal": 0,
-    "emvData": "string"
+    "emvData": "//+wAQAACQAAAbdL8IVIPlctHyw3ioJtsb5wd6sV9Fa8FPPfI4cNVc8+be1bJo/NzVTcKoloTU9n\nJjIGpXNZKNwv4FhAAG41j/U/fMKcOdbmTXOcA/GLi8cS/FWmMMjxcxRAYqFhXm2JfDkmUEG3tpyQ\nOhhvd+dEvM/L3fXPX2YxL48gVLDnxbgp8qv5PjqBPfbTRKqItiNAYupbrmyL/37H4QznoffrH5yF\n6pH5axBNj9ngAXEuuhpteTCACasjXiDQzY18XzV/tdQqAXTfY+Gb\n"
 }

@@ -46,5 +46,5 @@ def get_auth_token(endpoint, payload):
     response = requests.post(endpoint, json=payload)
     assert response.status_code == 200
     auth_token = json.loads(response.text)['payload']['tokens']['accessToken']
-    print(auth_token)
-    return auth_token
+#    print(auth_token)
+    return "Bearer "+auth_token
